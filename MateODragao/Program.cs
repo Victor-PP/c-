@@ -19,17 +19,8 @@ namespace MateODragao {
                 switch (opcaojogador) {
                     case "1":
                         Console.Clear ();
-                        Guerreiro guerreiro = new Guerreiro ();
-                        guerreiro.Nome = " Denteco ";
-                        guerreiro.Sobrenome = "Sao Jorge";
-                        guerreiro.CidadeNatal = "Danfer";
-                        guerreiro.DataDeNascimento = DateTime.Parse ("20/10/1419");
-                        guerreiro.FerramentaAtaque = "cajado magico";
-                        guerreiro.FerramentaProteçao = "escudo";
-                        guerreiro.Forca = 3;
-                        guerreiro.Destreza = 3;
-                        guerreiro.Inteligencia = 2;
-                        guerreiro.vida = 20;
+                        
+                        Guerreiro guerreiro = CriarGuerreiro();
 
                         Dragao dragao = new Dragao ();
                         dragao.Nome = "dragonildo";
@@ -38,24 +29,20 @@ namespace MateODragao {
                         dragao.Inteligencia = 3;
                         dragao.Vida = 300;
                         /* INICIO - primeiro dialogo */
-                        System.Console.WriteLine ($"{guerreiro.Nome.ToUpper()}: {dragao.Nome}, vou te matar!!");
-                        System.Console.WriteLine ($"{dragao.Nome.ToUpper()}: kkkkkk! Humano tolinho. Quem pensas q es?");
 
-                        System.Console.WriteLine ();
-                        System.Console.WriteLine ("Aperte ENTER para prosseguir");
-                        Console.ReadLine ();
+                        Criardialogo( guerreiro.Nome, $"{guerreiro.Nome.ToUpper()}: {dragao.Nome}, vou te matar!");
+                        Criardialogo(dragao.Nome, $"{dragao.Nome.ToUpper()}: kkkkkk! Humano tolinho. Quem pensas q es?");
+                        FinalizarDialogo();
+
                         /* FIM - primeiro dialogo */
                         /* INICIO - segundo dialogo */
-                        Console.Clear ();
-                        System.Console.WriteLine ($"{guerreiro.Nome.ToUpper()} Eu sou {guerreiro.Nome}! Da casa {guerreiro.Sobrenome}, seu desgracado!");
-                        System.Console.WriteLine ($"{guerreiro.Nome.ToUpper()}: vim de {guerreiro.CidadeNatal} para te derrotar e mostrar meu valor!");
-                        System.Console.WriteLine ($"{dragao.Nome.ToUpper()}: quem? de onde? que seja irei te matar!");
-
-                        System.Console.WriteLine ();
-                        System.Console.WriteLine ("Aperte ENTER para prosseguir");
-                        Console.ReadLine ();
+                        
+                        Criardialogo(guerreiro.Nome, $"{guerreiro.Nome.ToUpper()} Eu sou {guerreiro.Nome}! Da casa {guerreiro.Sobrenome}, seu desgracado!");
+                        Criardialogo(guerreiro.Nome, $"{guerreiro.Nome.ToUpper()}: vim de {guerreiro.CidadeNatal} para te derrotar e mostrar meu valor!");
+                        Criardialogo(dragao.Nome, $"{dragao.Nome.ToUpper()}: quem? de onde? que seja irei te matar!");
+                        FinalizarDialogo();
+                        
                         /* FIM - segundo dialogo */
-                        Console.Clear ();
 
                         bool JogadorAtacaPrimeiro = guerreiro.Destreza > dragao.Destreza ? true : false;
 
@@ -187,5 +174,38 @@ namespace MateODragao {
             } while (JogadorNaoDesistiu);
 
         }
-    }
+    
+        private static void Criardialogo(string nome, string frase)
+        {
+            
+            System.Console.WriteLine($"{nome.ToUpper()}: {frase}!");
+        }
+    
+        private static void FinalizarDialogo()
+        {
+            System.Console.WriteLine ();
+            System.Console.WriteLine ("Aperte ENTER para prosseguir");
+            Console.ReadLine ();
+            Console.Clear();
+        }
+
+        private static Guerreiro CriarGuerreiro()
+        {
+            int numero = int.Parse("2");
+            
+            Guerreiro guerreiro = new Guerreiro ();
+            guerreiro.Nome = " Denteco ";
+            guerreiro.Sobrenome = "Sao Jorge";
+            guerreiro.CidadeNatal = "Danfer";
+            guerreiro.DataDeNascimento = DateTime.Parse ("20/10/1419");
+            guerreiro.FerramentaAtaque = "cajado magico";
+            guerreiro.FerramentaProteçao = "escudo";
+            guerreiro.Forca = 3;
+            guerreiro.Destreza = 3;
+            guerreiro.Inteligencia = 2;
+            guerreiro.vida = 20;
+            
+            return guerreiro;
+        }
+    }   
 }
