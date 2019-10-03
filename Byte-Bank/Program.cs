@@ -7,6 +7,7 @@ namespace Byte_Bank
     {
         static void Main(string[] args)
         {
+            // class cliente
             System.Console.WriteLine("cadastro de cliente");
             System.Console.WriteLine();
             System.Console.Write("nome: ");
@@ -28,6 +29,7 @@ namespace Byte_Bank
                     System.Console.WriteLine("senha trocada com sucesso");
                 }
             }while(!senhaok);
+            
         }
     }
 }

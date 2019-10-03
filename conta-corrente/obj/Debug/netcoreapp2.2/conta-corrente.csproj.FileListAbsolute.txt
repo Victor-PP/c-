@@ -1,0 +1,11 @@
+C:\Users\38241859899\Documents\exercicio C#\conta-corrente\bin\Debug\netcoreapp2.2\conta-corrente.deps.json
+C:\Users\38241859899\Documents\exercicio C#\conta-corrente\bin\Debug\netcoreapp2.2\conta-corrente.runtimeconfig.json
+C:\Users\38241859899\Documents\exercicio C#\conta-corrente\bin\Debug\netcoreapp2.2\conta-corrente.runtimeconfig.dev.json
+C:\Users\38241859899\Documents\exercicio C#\conta-corrente\bin\Debug\netcoreapp2.2\conta-corrente.dll
+C:\Users\38241859899\Documents\exercicio C#\conta-corrente\bin\Debug\netcoreapp2.2\conta-corrente.pdb
+C:\Users\38241859899\Documents\exercicio C#\conta-corrente\obj\Debug\netcoreapp2.2\conta-corrente.csprojAssemblyReference.cache
+C:\Users\38241859899\Documents\exercicio C#\conta-corrente\obj\Debug\netcoreapp2.2\conta-corrente.csproj.CoreCompileInputs.cache
+C:\Users\38241859899\Documents\exercicio C#\conta-corrente\obj\Debug\netcoreapp2.2\conta-corrente.AssemblyInfoInputs.cache
+C:\Users\38241859899\Documents\exercicio C#\conta-corrente\obj\Debug\netcoreapp2.2\conta-corrente.AssemblyInfo.cs
+C:\Users\38241859899\Documents\exercicio C#\conta-corrente\obj\Debug\netcoreapp2.2\conta-corrente.dll
+C:\Users\38241859899\Documents\exercicio C#\conta-corrente\obj\Debug\netcoreapp2.2\conta-corrente.pdb
