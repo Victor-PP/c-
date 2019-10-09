@@ -1,0 +1,11 @@
+C:\Users\38241859899\Documents\exercicio C#\senaizinho\bin\Debug\netcoreapp2.2\senaizinho.deps.json
+C:\Users\38241859899\Documents\exercicio C#\senaizinho\bin\Debug\netcoreapp2.2\senaizinho.runtimeconfig.json
+C:\Users\38241859899\Documents\exercicio C#\senaizinho\bin\Debug\netcoreapp2.2\senaizinho.runtimeconfig.dev.json
+C:\Users\38241859899\Documents\exercicio C#\senaizinho\bin\Debug\netcoreapp2.2\senaizinho.dll
+C:\Users\38241859899\Documents\exercicio C#\senaizinho\bin\Debug\netcoreapp2.2\senaizinho.pdb
+C:\Users\38241859899\Documents\exercicio C#\senaizinho\obj\Debug\netcoreapp2.2\senaizinho.csprojAssemblyReference.cache
+C:\Users\38241859899\Documents\exercicio C#\senaizinho\obj\Debug\netcoreapp2.2\senaizinho.csproj.CoreCompileInputs.cache
+C:\Users\38241859899\Documents\exercicio C#\senaizinho\obj\Debug\netcoreapp2.2\senaizinho.AssemblyInfoInputs.cache
+C:\Users\38241859899\Documents\exercicio C#\senaizinho\obj\Debug\netcoreapp2.2\senaizinho.AssemblyInfo.cs
+C:\Users\38241859899\Documents\exercicio C#\senaizinho\obj\Debug\netcoreapp2.2\senaizinho.dll
+C:\Users\38241859899\Documents\exercicio C#\senaizinho\obj\Debug\netcoreapp2.2\senaizinho.pdb
